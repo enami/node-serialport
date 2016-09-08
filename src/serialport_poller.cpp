@@ -78,7 +78,7 @@ NAN_METHOD(SerialportPoller::New) {
   }
 
   if (!info[1]->IsFunction()) {
-    Nan::ThrowTypeError("Third argument must be a function");
+    Nan::ThrowTypeError("Second argument must be a function");
     return;
   }
 
